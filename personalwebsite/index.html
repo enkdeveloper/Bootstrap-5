@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Programming</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <style>
+        .nav-link.active{
+            color: red !important;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">New Developer</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav fw-bold">
+              <li class="nav-item">
+                <a class="nav-link active" href="#home">Anasayfa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">Hakkımda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#courses">Kurslarım</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#courseDetails">Kurs Detayları</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">İletişim</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <section class="min-vh-100 d-flex flex-column justify-content-md-end align-items-center" id="home" style="background-image: url(img/giris.jpg); background-size: 100% ; background-repeat: no-repeat; background-position: center;">
+        <div>
+            <p class="fw-bolder display-3 text-white">New Developer</p>
+            <h6 class="text-center text-white fs-3 mb-2"> Frontend Developer</h6>
+        </div>
+
+        <a class="btn btn-danger rounded-pill mb-2" href="#about">Hakkımda</a>
+    
+    </section>
+
+    <section class="container py-5" id="about">
+        <div class="text-center py-3">
+            <h2 class="text-uppercase fw-bolder">Hakkımda</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum maxime harum magnam est amet rem.</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <img class="img-fluid" src="img/giris.jpg">
+            </div>
+            <div class="col-lg-7 offset-lg-1">
+                <p class="lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem incidunt ex reprehenderit cum odio cupiditate totam, amet maxime vel in at sit exercitationem! Iure, provident?</p>
+                <h3 class="fw-bold fs-4 text-uppercase">Yetenekler:</h3>
+                <p class="mb-0">HTML:</p>
+                <div class="progress mb-2">
+                    <div class="progress-bar progress-bar-striped bg-success" style="width: 92%;">92%</div>
+                </div>
+                <p class="mb-0">CSS:</p>
+                <div class="progress mb-2">
+                    <div class="progress-bar progress-bar-striped bg-secondary" style="width: 86%;">86%</div>
+                </div>
+                <p class="mb-0">JS:</p>
+                <div class="progress mb-2">
+                    <div class="progress-bar progress-bar-striped bg-danger" style="width: 80%;">80%</div>
+                </div>
+                <p class="mb-0">Bootstrap 5:</p>
+                <div class="progress mb-2">
+                    <div class="progress-bar progress-bar-striped bg-primary" style="width: 90%;">90%</div>
+                </div>
+                <p class="mb-0">Angular:</p>
+                <div class="progress mb-2">
+                    <div class="progress-bar progress-bar-striped bg-warning" style="width: 78%;">78%</div>
+                </div>
+                <p class="mb-0">React:</p>
+                <div class="progress mb-2">
+                    <div class="progress-bar progress-bar-striped bg-black" style="width: 82%;">82%</div>
+                </div>
+                <p class="mb-0">Vue JS::</p>
+                <div class="progress mb-2">
+                    <div class="progress-bar progress-bar-striped bg-dark" style="width: 80%;">80%</div>
+                </div>
+                <p class="mb-0">.Net Core:</p>
+                <div class="progress mb-2">
+                    <div class="progress-bar progress-bar-striped bg-success" style="width: 85%;">85%</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="courses" class="bg-dark py-5">
+        <div class="container">
+            <div class="text-white text-center py-5">
+                <h2 class="fw-bolder text-uppercase">Kurslarım</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, rerum rem aliquam facilis totam earum!</p>
+            </div>
+            <div class="row pb-5">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <img src="img/img1.jpg" class="img-fluid img-thumbnail">
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <img src="img/img2.jpg" class="img-fluid img-thumbnail">
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <img src="img/img3.jpg" class="img-fluid img-thumbnail">
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <img src="img/img4.jpg" class="img-fluid img-thumbnail">
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <img src="img/img5.jpg" class="img-fluid img-thumbnail">
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <img src="img/img6.jpg" class="img-fluid img-thumbnail">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="courseDetails" class="py-5">
+        <div class="container">
+            <div class="text-center py-5">
+                <h2 class="fw-bolder text-uppercase">Kurslar Hakkında</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, rerum rem aliquam facilis totam earum!</p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="img/img7.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title text-center py-2">Lorem ipsum dolor sit amet.</h5>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum doloremque mollitia, cum consectetur eius sapiente sequi. Sint omnis corrupti accusamus obcaecati impedit est quo minima!</p>
+                            <a href="" class="btn btn-light">Devamını oku..</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="img/img8.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title text-center py-2">Lorem ipsum dolor sit amet.</h5>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum doloremque mollitia, cum consectetur eius sapiente sequi. Sint omnis corrupti accusamus obcaecati impedit est quo minima!</p>
+                            <a href="" class="btn btn-light">Devamını oku..</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="img/img3.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title text-center py-2">Lorem ipsum dolor sit amet.</h5>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum doloremque mollitia, cum consectetur eius sapiente sequi. Sint omnis corrupti accusamus obcaecati impedit est quo minima!</p>
+                            <a href="" class="btn btn-light">Devamını oku..</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    
+    <section id="contact" class="bg-dark py-5">
+        <div class="container">
+            <div class="text-center py-5 text-white">
+                <h2 class="fw-bolder text-uppercase">İletişim</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, rerum rem aliquam facilis totam earum!</p>
+            </div>
+
+            <div class="col-xxl-6 col-xl-7 col-lg-8 col-md-9 col-sm-10 col-11 mx-auto">
+                <form class="text-white">
+                    <div class="mb-3">
+                        <label class="form-label">Ad Soyad</label>
+                        <input type="text" class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Konu</label>
+                        <input type="text" class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Mesajınız</label>
+                        <textarea type="text" class="form-control" rows="10"></textarea>
+                    </div>
+                    <button class="btn btn-danger btn-lg">Gönder</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+   <footer class="bg-light">
+    <div class="text-center">
+        <p class="fs-5 py-3 mb-0">Tüm Hakları Saklıdır.</p>
+        <a class="text-danger fst-italic" href="#">New Developer</a>
+    </div>
+   </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
